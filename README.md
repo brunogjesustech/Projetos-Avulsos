@@ -1,6 +1,6 @@
 # 📻 SilenceFM
 
-Um rádio interativo feito com Arduino Uno, display OLED e buzzer — criado como presente de Dia dos Namorados para a Gabi (vulgo amoreco).
+Um rádio interativo feito com Arduino Uno R3, display OLED 0,96" e buzzer passivo — criado como presente de Dia dos Namorados para a Gabi (vulgo amoreco).
 
 Ao girar o potenciômetro, você sintoniza uma das 6 estações. Cada uma exibe uma mensagem, toca uma melodia 8bit e em seguida exibe uma animação temática no display.
 
