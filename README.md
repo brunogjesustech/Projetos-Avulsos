@@ -1,6 +1,6 @@
 # 📻 SilenceFM
 
-Um rádio interativo feito com Arduino Uno R3, display OLED 0,96" e buzzer passivo — criado como presente de Dia dos Namorados para a Gabi (vulgo amoreco).
+Um rádio interativo feito com Arduino Uno R3, display OLED 0,96" e buzzer passivo — criado como presente de Dia dos Namorados
 
 Ao girar o potenciômetro, você sintoniza uma das 6 estações. Cada uma exibe uma mensagem, toca uma melodia 8bit e em seguida exibe uma animação temática no display.
 
@@ -26,7 +26,7 @@ Ao girar o potenciômetro, você sintoniza uma das 6 estações. Cada uma exibe 
 | 96.7 FM    | Carro      | "Toda jornada merece um momento pra respirar." | Super Mario Bros   | Carro atravessando a tela com estrada animada |
 | 101.3 FM   | Chuva      | "Depois da chuva, até o silêncio parece bonito." | Song of Storms    | Nuvem com chuva e poça ondulando |
 | 104.6 FM   | Casinha    | "Alguns lugares parecem casa. Algumas pessoas também." | Tetris        | Casinha com janelas acendendo, fumaça e lua crescente |
-| 107.9 FM   | Especial ♥ | Slides românticos + imagens da Maomao      | Undertale: His Theme | Slides de texto com borda animada + bitmaps |
+| 107.9 FM   | Especial ♥ | Slides românticos + imagens da Maomao  / killjoy    | Undertale: His Theme | Slides de texto com borda animada + bitmaps |
 
 ---
 
@@ -34,7 +34,7 @@ Ao girar o potenciômetro, você sintoniza uma das 6 estações. Cada uma exibe 
 
 | Componente              | Conexão              |
 |-------------------------|----------------------|
-| Arduino Uno             | —                    |
+| Arduino Uno  R3         | —                    |
 | OLED SSD1306 128×64     | SDA → A4, SCL → A5  |
 | Potenciômetro           | Pino analógico A0    |
 | Buzzer passivo          | Pino digital 8, GND  |
@@ -126,8 +126,3 @@ SilenceFM.ino
 As imagens foram convertidas para arrays C via image2cpp e estão embutidas diretamente no `.ino`. Não é necessário nenhum arquivo externo.
 
 ---
-
-## 👤 Autor
-
-Feito com carinho por **Bruno G.**  
-*Made with care — para a Gabriela* ♥
